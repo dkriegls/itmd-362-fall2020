@@ -5,9 +5,13 @@ htlm {
 }
 
 input {
-    width: 99%;
     height: 30px;
-    margin: 0 auto;
+    width: 98%;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 95%;
 }
 
 div { 
@@ -23,7 +27,7 @@ label {
   height: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 620px) {
   label {
     display: inline-block;
     color: white;
@@ -39,8 +43,7 @@ label {
     width: 30%;
     float: clear;
     height: 20px;
-
-    
+   
   }
   
   div {
