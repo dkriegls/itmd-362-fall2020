@@ -271,20 +271,6 @@ p {
 }
 
 /*.hasjs class will only exist if js runs*/
-.hasjs #input-email {
-  position: relative;
-}
-
-.hasjs #input-email label {
-  transition: top 1s;
-  top: 26px;
-  left: 20px;
-  position: absolute;
-}
-
-.hasjs #input-email label.active {
-  top: -25px;
-}
 
 .hasjs #age-verification {
   position: absolute; 
